@@ -5,7 +5,7 @@ const Home = () => {
         <>
             <section className='view-1'>
 
-                <img src="src/assets/top-img.svg" alt="" />
+                <img src="https://cdn.prod.website-files.com/63fd93c920392238faa118c4/63fed275667d13010afac1ac_heading-fashionwerk.svg" alt="" />
                 <div className="text">
                     <p className='sub-text'>BRANDING AGENCY</p>
                     <p className='sub-text'>FROM BERLIN</p>
@@ -14,7 +14,7 @@ const Home = () => {
 
             <section className='view-2'>
                 <div className="bg">
-                    <img src="src/assets/bg.webp" alt="" />
+                    <img src="https://assets-global.website-files.com/63fd93c920392238faa118c4/63fed72aa75a04d4f083eb4a_home-hero-p-1080.webp" alt="" />
                 </div>
                 <div className="info">
                     <div className="title">
@@ -51,7 +51,7 @@ const Home = () => {
             </section >
 
             <section className='view-3'>
-                <img src="src/assets/girls.webp" alt="" />
+                <img src="https://assets-global.website-files.com/63fd93c920392238faa118c4/63ff0189107c3469a831cb0a_home-about-p-800.webp" alt="" />
                 <div className="txt">
                     <p className='vt'>What we do</p>
                     <div className="info-txt">
