@@ -187,7 +187,120 @@ body {
     }
 }
 
+.view-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
 
+    .pic {
+        width: 100%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            padding-top: 1rem;
+        }
+    }
+
+    .services-main {
+        h1 {
+            font-size: 2.8rem;
+            font-family: font;
+            font-weight: 100;
+        }
+
+        #line2 {
+            height: 1px;
+            width: 100%;
+            background-color: #ededed;
+            margin-top: 0.9rem;
+            display: none;
+
+        }
+
+
+
+        .services {
+            display: flex;
+            flex-direction: column;
+
+            #line {
+                height: 1px;
+                width: 100%;
+                background-color: #ededed;
+                margin-top: 2rem;
+            }
+
+            .service-box {
+                width: 100%;
+
+                h1 {
+                    font-size: 1.7rem;
+                    font-family: font;
+                    font-weight: 100;
+                    padding-top: 1rem;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: #888888;
+                    line-height: 1.5;
+                    letter-spacing: 1px;
+                    width: 100%;
+                    padding-top: 0.6rem;
+                    font-family: Roboto Mono, sans-serif;
+                }
+
+
+                .btn {
+                    padding-top: 1.5rem;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: end;
+
+
+                    button {
+                        border-radius: 50%;
+                        padding: 0.4rem 0.5rem;
+                        background-color: black;
+
+                        svg {
+                            margin: auto;
+                            text-align: center;
+                            color: white;
+                        }
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                        font-family: font;
+                        padding-left: 1rem;
+                        color: black;
+                        font-family: monospace;
+                        line-height: 160%;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+
+}
+
+.view-5 {
+    width: 100%;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        padding-top: 2rem;
+    }
+}
 
 
 
@@ -385,7 +498,7 @@ body {
                 }
 
                 p {
-                    font-size: 1.9rem;
+                    font-size: 1.6rem;
                     width: 90%;
                     padding-top: 1rem;
                 }
@@ -403,12 +516,12 @@ body {
                     padding: 0%;
 
                     h1 {
-                        font-size: 2.8rem;
+                        font-size: 2rem;
                         font-family: font;
                     }
 
                     p {
-                        font-size: 2.8rem;
+                        font-size: 2rem;
 
                     }
 
@@ -468,5 +581,122 @@ body {
             }
 
         }
+    }
+
+    .view-4 {
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 3rem;
+
+        .pic {
+            width: 100%;
+
+            img {
+
+                width: 100%;
+                object-fit: cover;
+                padding-top: 1rem;
+            }
+        }
+
+        .services-main {
+            width: 80%;
+            flex-wrap: wrap;
+
+            #line2 {
+                display: none;
+            }
+
+            h1 {
+                width: 80%;
+                font-size: 5rem;
+                font-family: font;
+                font-weight: 100;
+            }
+
+            #line {
+                height: 1px;
+                width: 100%;
+                background-color: #ededed;
+                margin-top: 0.7rem;
+            }
+
+            .services {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 100%;
+                /* gap: 50px; */
+
+
+
+                .service-box {
+                    padding-top: 0.9rem;
+
+                    width: 40%;
+
+                    #line {
+                        height: 1px;
+                        width: 100%;
+                        background-color: #ededed;
+                        margin-top: 0.7rem;
+                    }
+
+                    h1 {
+                        font-size: 1.7rem;
+                        font-family: font;
+                        font-weight: 100;
+                        padding-top: 1rem;
+                        text-transform: uppercase;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        color: #888888;
+                        line-height: 1.5;
+                        letter-spacing: 1px;
+                        width: 100%;
+                        padding-top: 0.6rem;
+                        font-family: Roboto Mono, sans-serif;
+                    }
+
+
+                    .btn {
+                        padding-top: 1.5rem;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: end;
+
+
+                        button {
+                            border-radius: 50%;
+                            padding: 0.4rem 0.5rem;
+                            background-color: black;
+
+                            svg {
+                                margin: auto;
+                                text-align: center;
+                                color: white;
+                            }
+                        }
+
+                        p {
+                            font-size: 0.9rem;
+                            font-family: font;
+                            padding-left: 1rem;
+                            color: black;
+                            font-family: monospace;
+                            line-height: 160%;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+
+
     }
 }
