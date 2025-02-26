@@ -14,7 +14,7 @@ const Navbar = () => {
             <section className="nav-main">
                 <div className="logo">
                     <a href="/">
-                        <img src="src/assets/63fec9eeb8692c4a95dd4ec0_logo.svg" alt="" />
+                        <img src="https://cdn.prod.website-files.com/63fd93c920392238faa118c4/63fec9eeb8692c4a95dd4ec0_logo.svg" alt="" />
                     </a> </div>
 
                 <div className="menu-toggle" onClick={toggleMenu}>
