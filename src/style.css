@@ -1,0 +1,994 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: medium;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  padding: 3rem;
+}
+
+/* navbar code */
+@font-face {
+  font-family: font;
+  src: url(./assets/GeneralSans-Regular.otf);
+}
+.main {
+  width: 100%;
+  padding: 0.5rem 1.4rem;
+}
+
+.view-1 {
+  width: 100%;
+}
+.view-1 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-top: 0.6rem;
+}
+.view-1 .text {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.9rem;
+}
+.view-1 .text .sub-text {
+  font-family: monospace;
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+}
+
+.view-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.view-2 .bg {
+  width: 100%;
+}
+.view-2 .bg img {
+  width: 100%;
+  padding-top: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.view-2 .info {
+  padding-top: 2rem;
+}
+.view-2 .info .title h1 {
+  font-family: font;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: 10;
+  letter-spacing: 1px;
+}
+.view-2 .info .title p {
+  font-size: 1.3rem;
+  font-family: monospace;
+  padding-top: 0.5rem;
+  color: #696969;
+  line-height: 1.3;
+}
+.view-2 .info .sub-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1.8rem;
+}
+.view-2 .info .sub-title .brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.view-2 .info .sub-title .brands h1 {
+  font-size: 1.8rem;
+  font-family: font;
+  padding-top: 0.5rem;
+  color: #696969;
+  line-height: 1.3;
+  font-weight: 100;
+  color: #111111;
+}
+.view-2 .info .sub-title .brands p {
+  font-size: 1.8rem;
+  font-family: font;
+  padding-top: 0.5rem;
+  color: #111111;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+.view-2 .info .sub-title #line {
+  height: 1px;
+  width: 100%;
+  background-color: #ededed;
+  margin-top: 0.7rem;
+}
+
+.view-3 {
+  width: 100%;
+  padding-top: 1rem;
+}
+.view-3 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.view-3 .txt {
+  display: flex;
+  justify-content: space-between;
+}
+.view-3 .txt .vt {
+  writing-mode: vertical-lr;
+  padding-top: 1.7rem;
+  text-transform: uppercase;
+  font-family: font;
+}
+.view-3 .txt .vt2 {
+  display: none;
+}
+.view-3 .txt .info-txt {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.view-3 .txt .info-txt h1 {
+  font-size: 3.8rem;
+  font-family: font;
+  padding-top: 0.5rem;
+  color: #696969;
+  line-height: 1.3;
+  font-weight: 100;
+  color: #111111;
+}
+.view-3 .txt .info-txt p {
+  font-size: 1.125rem;
+  font-family: font;
+  padding-top: 0.5rem;
+  color: rgba(17, 17, 17, 0.5);
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.view-4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+.view-4 .pic {
+  width: 100%;
+}
+.view-4 .pic img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-top: 1rem;
+}
+.view-4 .services-main h1 {
+  font-size: 2.8rem;
+  font-family: font;
+  font-weight: 100;
+}
+.view-4 .services-main #line2 {
+  height: 1px;
+  width: 100%;
+  background-color: #ededed;
+  margin-top: 0.9rem;
+  display: none;
+}
+.view-4 .services-main .services {
+  display: flex;
+  flex-direction: column;
+}
+.view-4 .services-main .services #line {
+  height: 1px;
+  width: 100%;
+  background-color: #ededed;
+  margin-top: 2rem;
+}
+.view-4 .services-main .services .service-box {
+  width: 100%;
+}
+.view-4 .services-main .services .service-box h1 {
+  font-size: 1.7rem;
+  font-family: font;
+  font-weight: 100;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+.view-4 .services-main .services .service-box p {
+  font-size: 1rem;
+  color: #888888;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  width: 100%;
+  padding-top: 0.6rem;
+  font-family: Roboto Mono, sans-serif;
+}
+.view-4 .services-main .services .service-box .btn {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.view-4 .services-main .services .service-box .btn button {
+  border-radius: 50%;
+  padding: 0.4rem 0.5rem;
+  background-color: black;
+}
+.view-4 .services-main .services .service-box .btn button svg {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.view-4 .services-main .services .service-box .btn p {
+  font-size: 0.9rem;
+  font-family: font;
+  padding-left: 1rem;
+  color: black;
+  font-family: monospace;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+
+.view-5 {
+  padding-top: 3rem;
+  width: 100%;
+}
+.view-5 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.view-6 {
+  height: 100%;
+  width: 100%;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.view-6 .main-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+.view-6 .main-team .bio {
+  display: flex;
+  flex-direction: column;
+}
+.view-6 .main-team .bio h1 {
+  font-size: 3rem;
+  font-family: font;
+  font-weight: 100;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+.view-6 .main-team .bio p {
+  font-size: 1.25rem;
+  font-family: font;
+  color: black;
+  font-family: monospace;
+  line-height: 160%;
+}
+.view-6 .main-team .team-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+.view-6 .main-team .team-main .card h1 {
+  font-size: 1.7rem;
+  font-family: font;
+  font-weight: 100;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  padding-bottom: 1.2rem;
+}
+.view-6 .main-team .team-main .card img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.view-6 .main-team .team-main .card p {
+  font-size: 1.1rem;
+  font-family: font;
+  color: #898989;
+  font-family: monospace;
+  line-height: 140%;
+  padding-top: 1.5rem;
+}
+.view-6 .main-team .team-main .card .card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-top: 1rem;
+}
+.view-6 .main-team .team-main .card .card-info h4 {
+  font-size: 0.9rem;
+  font-family: font;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.view-6 .main-team .team-main .card .card-info .main-icon i {
+  padding-left: 0.9rem;
+  color: #898989;
+}
+
+.view-7 {
+  padding-top: 3rem;
+  width: 100%;
+}
+.view-7 .testimonials #line {
+  height: 1px;
+  width: 100%;
+  background-color: #ededed;
+  margin-top: 0.7rem;
+}
+.view-7 .testimonials .join-main h5 {
+  font-size: 0.9rem;
+  font-family: font;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+.view-7 .testimonials .join-main h2 {
+  font-size: 2.3rem;
+  padding-top: 2rem;
+  font-family: font;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.view-7 .testimonials .join-main .btn {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.view-7 .testimonials .join-main .btn button {
+  border-radius: 50%;
+  padding: 0.4rem 0.5rem;
+  background-color: black;
+}
+.view-7 .testimonials .join-main .btn button svg {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.view-7 .testimonials .join-main .btn p {
+  font-size: 0.9rem;
+  font-family: font;
+  padding-left: 1rem;
+  color: black;
+  font-family: monospace;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+
+.view-8 {
+  height: 100%;
+  width: 100%;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.view-8 h1 {
+  font-size: 5rem;
+  font-family: font;
+  font-weight: 100;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  padding-bottom: 1.2rem;
+}
+.view-8 .clients-main {
+  display: flex;
+  flex-direction: column;
+}
+.view-8 .clients-main .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: start;
+}
+.view-8 .clients-main .box .sub-box {
+  display: flex;
+  flex-direction: column;
+}
+.view-8 .clients-main .box .sub-box h1 {
+  font-family: General Sans, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 0.5rem;
+  padding: 0%;
+  font-size: 1.9rem;
+}
+.view-8 .clients-main .box .sub-box h5 {
+  font-size: 0.8rem;
+  font-family: Roboto Mono, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-bottom: 0.4rem;
+}
+.view-8 .clients-main .box span {
+  font-family: font;
+  padding-top: 0.6rem;
+}
+.view-8 .clients-main #line {
+  height: 1px;
+  width: 100%;
+  background-color: #e0e0e0;
+  margin: 1.7rem 0rem;
+}
+
+.view-last {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin-top: 2rem;
+  padding-top: 0.2rem;
+}
+.view-last .main {
+  margin-top: 3rem;
+}
+.view-last .main img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.view-last .main h1 {
+  color: white;
+  font-family: font;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: General Sans, sans-serif;
+  font-size: 7.5vw;
+  font-weight: 400;
+  line-height: 110%;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.view-last .main button {
+  background-color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.view-last .main button svg {
+  padding-top: 0.5rem;
+}
+
+/* media css */
+/* navbar responsive css */
+@media (max-width: 768px) {
+  .nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-main .menu-toggle {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .nav-main .nav-links.active {
+    display: block;
+  }
+  .nav-main .nav-links {
+    display: none;
+    position: absolute;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: black;
+  }
+  .nav-main .nav-links ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-main .nav-links ul li {
+    margin-top: 1rem;
+  }
+  .nav-main .nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "satoshi", sans-serif;
+  }
+  .nav-main .nav-links ul button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.9rem;
+    border-radius: 20px;
+    font-family: monospace;
+    margin: 0.9rem;
+  }
+}
+@media (min-width: 768px) {
+  .nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+  }
+  .nav-main .menu-toggle {
+    display: none;
+  }
+  .nav-main .nav-links ul {
+    display: flex;
+    align-items: center;
+  }
+  .nav-main .nav-links ul li {
+    list-style: none;
+    font-family: "satoshi", sans-serif;
+    text-transform: uppercase;
+    padding: 0rem 0.9rem;
+    font-size: 0.8rem;
+  }
+  .nav-main .nav-links ul li a {
+    text-decoration: none;
+    color: #2a2a2a;
+  }
+  .nav-main .nav-links ul button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.9rem;
+    border-radius: 20px;
+    font-family: monospace;
+    margin-left: 0.9rem;
+  }
+}
+/* All Responsive */
+@media (min-width: 1020px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: medium;
+  }
+  .main {
+    width: 100%;
+    padding: 1.8rem 3.8rem;
+  }
+  .nav-main {
+    width: 100%;
+  }
+  .view-1 {
+    width: 100%;
+  }
+  .view-1 img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-top: 2.5rem;
+  }
+  .view-1 .text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.9rem;
+  }
+  .view-1 .text .sub-text {
+    font-family: monospace;
+    font-size: 0.9rem;
+    letter-spacing: 0.01rem;
+  }
+  .view-2 {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 2%;
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+  }
+  .view-2 .bg {
+    width: 100%;
+  }
+  .view-2 .bg img {
+    width: 100%;
+    padding-top: 1rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .view-2 .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    padding-top: 3rem;
+  }
+  .view-2 .info .title h1 {
+    font-size: 4.3rem;
+  }
+  .view-2 .info .title p {
+    font-size: 1.6rem;
+    width: 90%;
+    padding-top: 1rem;
+  }
+  .view-2 .info .sub-title {
+    display: flex;
+    flex-direction: column;
+  }
+  .view-2 .info .sub-title .brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+  }
+  .view-2 .info .sub-title .brands h1 {
+    font-size: 2rem;
+    font-family: font;
+  }
+  .view-2 .info .sub-title .brands p {
+    font-size: 2rem;
+  }
+  .view-3 {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .view-3 img {
+    width: 32%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+  }
+  .view-3 .txt .vt {
+    display: none;
+  }
+  .view-3 .txt .vt2 {
+    display: block;
+    writing-mode: vertical-lr;
+    text-align: left;
+    padding-top: 1.7rem;
+    text-transform: uppercase;
+    font-family: font;
+  }
+  .view-3 .txt .info-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 4rem;
+  }
+  .view-3 .txt .info-txt h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
+  .view-3 .txt .info-txt p {
+    font-size: 1.5rem;
+    width: 80%;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-family: font;
+  }
+  .view-4 {
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 3rem;
+  }
+  .view-4 .pic {
+    width: 100%;
+  }
+  .view-4 .pic img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-top: 1rem;
+  }
+  .view-4 .services-main {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  .view-4 .services-main #line2 {
+    display: none;
+  }
+  .view-4 .services-main h1 {
+    width: 80%;
+    font-size: 5rem;
+    font-family: font;
+    font-weight: 100;
+  }
+  .view-4 .services-main #line {
+    height: 1px;
+    width: 100%;
+    background-color: #ededed;
+    margin-top: 0.7rem;
+  }
+  .view-4 .services-main .services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* gap: 50px; */
+  }
+  .view-4 .services-main .services .service-box {
+    padding-top: 0.9rem;
+    width: 40%;
+  }
+  .view-4 .services-main .services .service-box #line {
+    height: 1px;
+    width: 100%;
+    background-color: #ededed;
+    margin-top: 0.7rem;
+  }
+  .view-4 .services-main .services .service-box h1 {
+    font-size: 1.7rem;
+    font-family: font;
+    font-weight: 100;
+    padding-top: 1rem;
+    text-transform: uppercase;
+  }
+  .view-4 .services-main .services .service-box p {
+    font-size: 1rem;
+    color: #888888;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    width: 100%;
+    padding-top: 0.6rem;
+    font-family: Roboto Mono, sans-serif;
+  }
+  .view-4 .services-main .services .service-box .btn {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+  }
+  .view-4 .services-main .services .service-box .btn button {
+    border-radius: 50%;
+    padding: 0.4rem 0.5rem;
+    background-color: black;
+  }
+  .view-4 .services-main .services .service-box .btn button svg {
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+  .view-4 .services-main .services .service-box .btn p {
+    font-size: 0.9rem;
+    font-family: font;
+    padding-left: 1rem;
+    color: black;
+    font-family: monospace;
+    line-height: 160%;
+    text-transform: uppercase;
+  }
+  .view-6 {
+    height: 100%;
+  }
+  .view-6 .main-team {
+    display: flex;
+    align-items: center;
+  }
+  .view-6 .main-team .bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .view-6 .main-team .bio h1 {
+    font-size: 7rem;
+    font-family: font;
+    font-weight: 100;
+    width: 80%;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  .view-6 .main-team .bio p {
+    font-size: 1.25rem;
+    font-family: font;
+    color: black;
+    width: 80%;
+    font-family: monospace;
+    line-height: 160%;
+  }
+  .view-6 .main-team .team-main {
+    display: flex;
+    flex-direction: row;
+  }
+  .view-6 .main-team .team-main .card {
+    width: 20%;
+  }
+  .view-6 .main-team .team-main .card h1 {
+    font-size: 1.7rem;
+    font-family: font;
+    font-weight: 100;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    padding-bottom: 1.2rem;
+  }
+  .view-6 .main-team .team-main .card img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .view-6 .main-team .team-main .card p {
+    font-size: 1rem;
+    font-family: font;
+    color: #b4b4b4;
+    font-family: monospace;
+    line-height: 140%;
+    padding-top: 1.5rem;
+    font-weight: 400;
+  }
+  .view-6 .main-team .team-main .card .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-top: 1rem;
+  }
+  .view-6 .main-team .team-main .card .card-info h4 {
+    font-size: 0.8rem;
+    font-family: font;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  .view-6 .main-team .team-main .card .card-info .main-icon i {
+    padding-left: 0.9rem;
+    color: #898989;
+    font-size: 0.8rem;
+  }
+  .view-7 {
+    padding-top: 4rem;
+    width: 100%;
+  }
+  .view-7 .testimonials {
+    width: 50%;
+    text-align: left;
+    float: right;
+  }
+  .view-7 .testimonials #line {
+    height: 1px;
+    width: 100%;
+    background-color: #ededed;
+    margin-top: 0.7rem;
+  }
+  .view-7 .testimonials .join-main h5 {
+    font-size: 0.9rem;
+    font-family: font;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 1rem;
+  }
+  .view-7 .testimonials .join-main h2 {
+    font-size: 3.8rem;
+    padding-top: 2rem;
+    font-family: font;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  .view-7 .testimonials .join-main .btn {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .view-7 .testimonials .join-main .btn button {
+    border-radius: 50%;
+    padding: 0.4rem 0.5rem;
+    background-color: black;
+  }
+  .view-7 .testimonials .join-main .btn button svg {
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+  .view-7 .testimonials .join-main .btn p {
+    font-size: 0.9rem;
+    font-family: font;
+    padding-left: 1rem;
+    color: black;
+    font-family: monospace;
+    line-height: 160%;
+    text-transform: uppercase;
+  }
+  .view-8 {
+    height: 100%;
+    width: 65%;
+    text-align: right;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+  .view-8 h1 {
+    padding-bottom: 1.2rem;
+  }
+  .view-8 .clients-main {
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+  }
+  .view-8 .clients-main .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .view-8 .clients-main .box .sub-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .view-8 .clients-main .box .sub-box h1 {
+    font-family: General Sans, sans-serif;
+    padding: 0%;
+    font-size: 1.9rem;
+    padding-left: 2rem;
+  }
+  .view-8 .clients-main .box .sub-box h5 {
+    padding: 0%;
+  }
+  .view-8 .clients-main .box span {
+    font-family: Roboto Mono, sans-serif;
+    font-size: 0.8rem;
+  }
+  .view-8 .clients-main #line {
+    height: 1px;
+    width: 100%;
+    background-color: #e0e0e0;
+    margin: 1.7rem 0rem;
+  }
+  .view-last {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin-top: 30rem;
+    padding-top: 0.2rem;
+    position: relative;
+    padding: 5rem;
+  }
+  .view-last .main {
+    margin-top: 3rem;
+  }
+  .view-last .main img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .view-last .main h1 {
+    color: white;
+    font-family: font;
+    font-size: 3.7rem;
+    text-align: center;
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+  .view-last .main button {
+    background-color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  .view-last .main button svg {
+    padding-top: 0.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
