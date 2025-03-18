@@ -597,6 +597,10 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: sticky;
+        top: 0%;
+        background-color: white;
+
 
         .menu-toggle {
             display: block;
@@ -612,7 +616,7 @@ body {
         .nav-links {
             display: none;
             position: absolute;
-            top: 23%;
+            top: 11.7rem;
             transform: translate(-50%, -50%);
             left: 50%;
             width: 100%;
@@ -626,7 +630,7 @@ body {
 
                 li {
                     margin-top: 1rem;
-
+                    list-style: none;
 
                     a {
                         text-decoration: none;
@@ -658,6 +662,9 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 98%;
+        position: sticky;
+        top: 0%;
+        background-color: white;
 
         .menu-toggle {
             display: none;
@@ -717,6 +724,11 @@ body {
 
     .nav-main {
         width: 100%;
+        position: sticky;
+        top: 0%;
+        background-color: white;
+        backdrop-filter: blur(10px);
+        padding: 20px;
     }
 
     .view-1 {

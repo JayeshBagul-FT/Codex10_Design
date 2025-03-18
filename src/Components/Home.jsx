@@ -133,7 +133,7 @@ const Home = () => {
             </section> */}
 
             {/* clinets section view-8 */}
-            <div className="view-8">
+            <div className="view-8">    
                 <h1>CLIENTS</h1>
 
                 <div className="clients-main">

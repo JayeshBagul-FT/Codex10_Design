@@ -484,6 +484,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: white;
   }
   .nav-main .menu-toggle {
     display: block;
@@ -496,7 +499,7 @@ body {
   .nav-main .nav-links {
     display: none;
     position: absolute;
-    top: 23%;
+    top: 11.7rem;
     transform: translate(-50%, -50%);
     left: 50%;
     width: 100%;
@@ -509,6 +512,7 @@ body {
   }
   .nav-main .nav-links ul li {
     margin-top: 1rem;
+    list-style: none;
   }
   .nav-main .nav-links ul li a {
     text-decoration: none;
@@ -531,6 +535,9 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 98%;
+    position: sticky;
+    top: 0%;
+    background-color: white;
   }
   .nav-main .menu-toggle {
     display: none;
@@ -573,6 +580,12 @@ body {
   }
   .nav-main {
     width: 100%;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    padding: 20px;
   }
   .view-1 {
     width: 100%;
